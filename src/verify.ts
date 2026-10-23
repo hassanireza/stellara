@@ -1,0 +1,1 @@
+import{puzzles}from'./puzzles';if(puzzles.length!==1000)throw Error('count');for(let i=0;i<1000;i++){const p=puzzles[i];if(p.id!==i+1||!p.prompt||!p.target||!p.hint)throw Error('invalid puzzle '+(i+1))}console.log('1,000 Stellara puzzles verified')
